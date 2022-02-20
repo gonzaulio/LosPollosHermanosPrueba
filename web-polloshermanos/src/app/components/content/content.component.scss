@@ -1,0 +1,30 @@
+.container-principal {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .card {
+        width: 30%;
+        border: none;
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            img {
+                width: 100%;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            a {
+                background-color: #CB1429;
+                border: none;
+                font-family: 'Righteous-regular';
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+
+            }
+        }
+    }
+}
+
